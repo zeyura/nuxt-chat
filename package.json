@@ -1,5 +1,5 @@
 {
-  "name": "Nuxt-chat",
+  "name": "NuxtChat",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.6",
+    "socket.io": "^3.0.4"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.2"
