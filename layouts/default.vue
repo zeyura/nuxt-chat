@@ -1,11 +1,11 @@
 <template>
-  <v-app>
-    <h1>Helloo</h1>
-  </v-app>
+    <v-app>
+        <nuxt />
+    </v-app>
 </template>
 
 <script>
 export default {
-  data: () => ({})
+    data: () => ({})
 };
 </script>
